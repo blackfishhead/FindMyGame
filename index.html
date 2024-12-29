@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find My Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Find My Game</h1>
+    </div>
+    <nav>
+      <a href="#" id="homeButton">Home</a>
+      <a href="about.html">About Us</a>
+    </nav>
+  </header>
+
+  <!-- Main Content Container -->
+  <div class="container">
+    <div class="genre-filter">
+      <label for="genre">Select Genre:</label>
+      <select id="genre" onchange="filterGames()">
+        <option value="all">All Games</option>
+        <option value="adventure">Adventure</option>
+        <option value="action">Action</option>
+        <option value="horror">Horror</option>
+        <option value="simulator">Simulator</option>
+        <option value="strategy">Strategy</option>
+        <option value="racing">Car Games</option>
+        <option value="puzzle">Puzzle</option>
+        <option value="obby">Obby</option>
+        <option value="music">Music Games</option>
+        <option value="building">Building</option>
+        <option value="military">Military</option>
+        <option value="shooter">Shooter</option>
+        <option value="roleplay">Roleplay</option>
+        <option value="magic">Magic</option>
+        <option value="plane">Plane Games</option>
+        <option value="robot">Robot Games</option>
+        <option value="survival">Survival</option>
+        <option value="anime">Anime</option>
+      </select>
+    </div>
+
+    <!-- Game List -->
+    <div id="game-list">
+      <!-- Games will be inserted here by JavaScript -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
