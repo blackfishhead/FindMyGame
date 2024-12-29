@@ -1,0 +1,123 @@
+/* Allgemeine Seite */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Kopfzeile */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header .logo h1 {
+  margin: 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container für den Hauptinhalt */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff2a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Genre-Auswahl */
+.genre-filter {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.genre-filter label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.genre-filter select {
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Spiele-Liste */
+#game-list {
+  margin-top: 20px;
+}
+
+.game {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.game h3 {
+  margin: 0 0 10px 0;
+  color: #ece8e8;
+}
+
+.game p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #acacac;
+}
+
+.game a {
+  text-decoration: none;
+  color: #e7e7e7;
+  font-weight: bold;
+}
+
+.game a:hover {
+  text-decoration: underline;
+}
+body {
+  background-color: #1a1a1a; /* Dunkles Grau */
+  color: white; /* Textfarbe auf Weiß setzen, damit er gut sichtbar bleibt */
+}
+
+.game {
+  background-color: #333333; /* Etwas helleres Grau für die Spieleboxen */
+  border: 1px solid #555555; /* Randfarbe für die Spieleboxen */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+header {
+  background-color: #1b1b1b; /* Noch dunkleres Grau für den Header */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+select {
+  background-color: #1b1b1b; /* Dunkler Hintergrund für das Dropdown-Menü */
+  color: white;
+  border: 1px solid #1b1b1b;
+  padding: 10px;
+}
